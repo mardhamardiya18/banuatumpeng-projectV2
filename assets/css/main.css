@@ -25,6 +25,7 @@ body{
  max-width: 1500px;
 }
 
+
 /* NAVBAR START */
 .navbar{
     background-color: var(--body1-color);
@@ -196,6 +197,7 @@ body{
     background-color: var(--body2-color);
     border-radius: 50px 50px 0 0;
     z-index: -1;
+   
 }
 .about .content-left .content-wrapper{
     position: relative;
@@ -207,6 +209,15 @@ body{
     max-width: 500px;
     width: 100%;
     z-index: 1;
+    animation: imgAbout 8s linear infinite;
+}
+@keyframes imgAbout {
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
 }
 .about .content-left .orn{
     position: absolute;
@@ -244,11 +255,71 @@ body{
     background-color: var(--orange-color);
     color: #fff;
 }
+.about .btn-kontak:hover{
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: var(--orange-color);
+}
 .about .btn-ig{
     border: 3px solid var(--orange-color);
     color: var(--orange-color);
 }
+.about .btn-ig:hover{
+    background-color: var(--orange-color);
+    color: #fff;
+}
 /* ABOUT END */
+
+/* SERVICE START */
+.service{
+    margin-top: 200px;
+}
+.service .label-service{
+    text-transform: uppercase;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    font-size: 20px;
+}
+.service .heading-service{
+    font-family: var(--heading-font);
+    font-weight: 800;
+    font-size: 36px;
+    color: var(--maroon-color);
+}
+.service .card{
+    position: relative;
+    border: 3px solid var(--maroon-color);
+    background-color: transparent;
+}
+.service .heading-card h3{
+    font-family: var(--heading-font);
+    font-weight: 700;
+    font-size: 35px;
+}
+.service .body-card p{
+    font-size: 20px;
+
+}
+
+.card .orn-hover{
+    position: absolute;
+    top: 0;
+    clip-path: circle(0.0% at 50% 50%);
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--orange-color);
+    z-index: -1;
+    transition: .5s ease-in-out;
+}
+.card:hover .orn-hover{
+    clip-path: circle(70.7% at 50% 50%);
+   transition: .4s ease-in-out;
+}
+
+
+   
+/* SERVICE END */
 
 
 
