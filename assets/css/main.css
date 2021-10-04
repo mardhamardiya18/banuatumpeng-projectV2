@@ -441,6 +441,19 @@ body{
 }
 /* TESTI END */
 
+/* BLOG START */
+.blog{
+    margin-top: 100px;
+    padding-top: 100px;
+    background-color: var(--body2-color);
+    border-radius: 50px 50px 0 0;
+}
+.blog .col-icon i{
+    font-size: 3.5rem;
+    color: var(--orange-color);
+}
+/* BLOG END */
+
 
 
 
