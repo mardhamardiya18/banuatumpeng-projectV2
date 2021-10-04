@@ -494,7 +494,7 @@ body{
 /* SUBSCRIBE START */
 .subscribe{
     background-color: var(--body2-color);
-    padding-top: 200px;
+    padding: 200px 0;
 }
 .subscribe .col-subs{
     background-color: var(--maroon-color);
@@ -595,5 +595,8 @@ body{
     }
     .row-blog .card{
         width: 19rem !important;
+    }
+    .col-subs .input input{
+        width: 80%;
     }
 }
