@@ -597,6 +597,6 @@ body{
         width: 19rem !important;
     }
     .col-subs .input input{
-        width: 80%;
+        width: 100%;
     }
 }
