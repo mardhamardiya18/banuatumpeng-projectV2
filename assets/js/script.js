@@ -11,3 +11,17 @@ var swiper = new Swiper(".mySwiper", {
         disableOnInteraction: false,
     },
 });
+
+var swiper = new Swiper(".mySwiperBlog", {
+    grabCursor: true,
+    spaceBetween: 25,
+    centeredSlides: false,
+    slidesPerView: "auto",
+    pagination: {
+        el: ".swiper-pagination",
+    },
+    navigation: {
+        nextEl: ".bxs-chevron-right-circle",
+        prevEl: ".bxs-chevron-left-circle",
+    },
+});

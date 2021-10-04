@@ -435,6 +435,9 @@ body{
     font-weight: 700;
     color: var(--maroon-color);
 }
+.testi .card{
+    border-radius: 15px;
+}
 .testi .desc-testi{
     font-size: 20px;
     margin-top: 20px;
@@ -451,6 +454,40 @@ body{
 .blog .col-icon i{
     font-size: 3.5rem;
     color: var(--orange-color);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.blog .col-icon i:hover{
+    color: #fff;
+    transition: .3s ease-in-out;
+}
+.blog .blog-label{
+    font-size: 20px;
+    font-family: var(--heading-font);
+    font-weight: 700;
+}
+.blog .blog-heading{
+    font-size: 36px;
+    font-family: var(--heading-font);
+    color: var(--maroon-color);
+    font-weight: 700;
+}
+.row-blog .card{
+    border-radius: 20px;
+}
+.row-blog .card-text{
+    font-family: var(--heading-font);
+    font-weight: 700;
+}
+.row-blog .btn-blog{
+    background-color: var(--orange-color);
+    color: #fff;
+    transition: .3s ease-in-out;
+}
+.row-blog .btn-blog:hover{
+ background-color: #fff;
+ color: var(--orange-color);
+ transition: .3s ease-in-out;
 }
 /* BLOG END */
 
@@ -513,5 +550,8 @@ body{
     .home .heading-home{
         font-size: 40px;
         line-height: 50px;
+    }
+    .row-blog .card{
+        width: 19rem !important;
     }
 }
