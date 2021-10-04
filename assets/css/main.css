@@ -316,11 +316,107 @@ body{
     clip-path: circle(70.7% at 50% 50%);
    transition: .4s ease-in-out;
 }
-
-
-   
+ 
 /* SERVICE END */
 
+/* MENU START */
+.menu{
+    background-color: var(--body2-color);
+}
+.menu .banner{
+    background-color: var(--orange-color);
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.banner .heading-banner h1{
+    font-family: var(--heading-font);
+    font-size: 40px;
+    font-weight: 800;
+   
+}
+
+.banner p{
+    font-size: 20px;
+}
+.banner .btn-pesan{
+    background-color: var(--maroon-color);
+    color: #fff;
+}
+.menu .row-menu{
+    margin-top: 200px !important;
+}
+.row-menu .label-menu{
+    font-family: var(--heading-font);
+    font-size: 20px;
+    font-weight: 700;
+}
+.row-menu .heading-menu{
+    font-family: var(--heading-font);
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--maroon-color);
+}
+.box-menu{
+    position: relative;
+    width: 350px;
+    overflow-x: hidden;
+}
+.box-menu img{
+    width: 100%;
+}
+.box-menu p{
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    font-size: 30px;
+    width: 50%;
+    color: #fff;
+    font-weight: 800;
+    font-family: var(--heading-font);
+    line-height: 40px;
+}
+.box-menu .btn-pesan{
+    position: absolute;
+    top:0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: var(--orange-color);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s ease-in-out;
+}
+.box-menu:hover .btn-pesan{
+    left: 0;
+    transition: .4s ease-in-out;
+}
+.box-menu .btn-pesan a{
+    font-size: 20px;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 50px;
+    background-color: var(--maroon-color);
+    animation: btnPesan 1.5s linear infinite;
+}
+.box-menu .btn-pesan a:hover{
+ background-color: #fff;
+ color: var(--maroon-color);
+ transition: .4s ease-in-out;
+
+}
+@keyframes btnPesan {
+    0%,100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+}
+/* MENU END */
 
 
 
@@ -355,6 +451,9 @@ body{
     .home img{
         top: 50%;
         max-width: 500px;
+    }
+    .box-menu{
+        width: 300px;
     }
 }
 @media screen and (max-width: 768px) {
