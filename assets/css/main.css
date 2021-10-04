@@ -352,8 +352,8 @@ body{
 }
 .row-menu .heading-menu{
     font-family: var(--heading-font);
-    font-size: 40px;
-    font-weight: 800;
+    font-size: 36px;
+    font-weight: 700;
     color: var(--maroon-color);
 }
 .box-menu{
@@ -417,6 +417,29 @@ body{
     }
 }
 /* MENU END */
+
+/* TESTI START */
+.testi .row{
+    margin-top: 100px;
+}
+.testi .label-testi{
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: var(--heading-font);
+    font-size: 20px;
+    font-weight: 700;
+}
+.testi .heading-testi{
+    font-size: 36px;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    color: var(--maroon-color);
+}
+.testi .desc-testi{
+    font-size: 20px;
+    margin-top: 20px;
+}
+/* TESTI END */
 
 
 
