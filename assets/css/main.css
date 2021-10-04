@@ -16,6 +16,9 @@
     box-sizing: border-box !important;
 }
 
+html{
+    position: relative;
+}
 body{
     background-color: var(--body1-color);
     font-family: var(--main-font);
@@ -59,7 +62,9 @@ body{
 /* NAVBAR END */
 
 /* HOME START */
-
+.home .col-img-home{
+    position: relative;
+}
 .home img{
     position: absolute;
     top: 43%;
@@ -494,7 +499,8 @@ body{
 /* SUBSCRIBE START */
 .subscribe{
     background-color: var(--body2-color);
-    padding: 200px 0;
+    padding-top: 300px;
+   
 }
 .subscribe .col-subs{
     background-color: var(--maroon-color);
@@ -532,6 +538,64 @@ body{
     transition: .3s ease-in-out;
 }
 /* SUBSCRIBE END */
+
+/* Footer start */
+
+.footer .logo-footer h3{
+    font-family: var(--heading-font);
+    font-weight: 700;
+    color: var(--maroon-color);
+}
+.col1 p{
+    font-size: 20px;
+}
+.col1 .sosmed-icon i{
+    font-size: 3rem;
+    color: var(--maroon-color);
+    transition: .4s ease-in-out;
+}
+.col1 .sosmed-icon i:hover{
+ transform: translateY(-15px) scale(1.1);
+ transition: .4s ease-in-out;
+}
+.col2 h3{
+    font-size: 30px;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    color: var(--maroon-color);
+}
+.col2 p{
+    font-size: 20px;
+}
+.col3 h3{
+    font-size: 30px;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    color: var(--maroon-color);
+}
+.col3 a{
+    font-size: 20px;
+    display: block;
+    margin: 10px 0;
+    color: #353535;
+}
+.col4 h3{
+    font-size: 30px;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    color: var(--maroon-color);
+}
+.col4 p{
+    font-size: 20px;
+    color: #353535;
+}
+.col4 a{
+    font-size: 23px;
+}
+.footer .col-copy p{
+    font-size: 18px;
+}
+/* footer end */
 
 
 
