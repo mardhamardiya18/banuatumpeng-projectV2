@@ -491,6 +491,48 @@ body{
 }
 /* BLOG END */
 
+/* SUBSCRIBE START */
+.subscribe{
+    background-color: var(--body2-color);
+    padding-top: 200px;
+}
+.subscribe .col-subs{
+    background-color: var(--maroon-color);
+    border-radius: 20px;
+}
+.col-subs .subs-label{
+    font-size: 20px;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0;
+}
+.col-subs .subs-heading{
+    font-size: 36px;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    color: #fff;
+    width: 60%;
+    margin: 10px auto;
+}
+.col-subs .input input{
+    border: none;
+}
+.col-subs .input input:focus{
+  outline: none;
+}
+.col-subs .btn-subs{
+    background-color: var(--orange-color);
+    color: #fff;
+    transition: .3s ease-in-out;
+}
+.col-subs .btn-subs:hover{
+    background-color: #fff;
+    color: var(--orange-color);
+    transition: .3s ease-in-out;
+}
+/* SUBSCRIBE END */
+
 
 
 
