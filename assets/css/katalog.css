@@ -1,0 +1,38 @@
+:root{
+    /* color */
+    --maroon-color : #911F27;
+    --orange-color : #ECAC5D;
+    --body1-color: #FCF0C8;
+    --body2-color: #FFFAE1;
+
+    /* font */
+    --main-font : 'Roboto', sans-serif;
+    --heading-font : 'Raleway', sans-serif;
+}
+
+body{
+    background-color: var(--body1-color);
+    font-family: var(--main-font);
+}
+.heading{
+    text-transform: uppercase;
+    font-family: var(--heading-font);
+    font-weight: 800;
+}
+.row img{
+    animation: gear 2.3s linear infinite;
+}
+@keyframes gear {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .row img{
+        width: 100px;
+    }
+}
