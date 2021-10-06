@@ -33,6 +33,9 @@ body{
 .navbar{
     background-color: var(--body1-color);
 }
+.navbar.show{
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
 .navbar .navbar-nav a{
     font-size: 20px;
     font-family: var(--heading-font);
@@ -42,7 +45,7 @@ body{
 .navbar .navbar-nav a.active{
     font-weight: 800;
     color: var(--orange-color) !important;
-    
+   
 }
 .navbar .btn-catalog{
     background-color: var(--orange-color);
@@ -343,6 +346,12 @@ body{
 .banner p{
     font-size: 20px;
 }
+.banner .requirement{
+    color: rgb(0, 47, 255);
+}
+.requirement i{
+    font-size: 1.4rem;
+}
 .banner .btn-pesan{
     background-color: var(--maroon-color);
     color: #fff;
@@ -360,11 +369,13 @@ body{
     font-size: 36px;
     font-weight: 700;
     color: var(--maroon-color);
+    
 }
 .box-menu{
     position: relative;
     width: 350px;
     overflow-x: hidden;
+    border-radius: 20px;
 }
 .box-menu img{
     width: 100%;
@@ -373,12 +384,15 @@ body{
     position: absolute;
     bottom: 0;
     left: 10%;
-    font-size: 30px;
+    font-size: 25px;
     width: 50%;
     color: #fff;
     font-weight: 800;
     font-family: var(--heading-font);
-    line-height: 40px;
+    line-height: 30px;
+    background-color: var(--orange-color);
+    padding: 20px;
+    border-radius: 20px;
 }
 .box-menu .btn-pesan{
     position: absolute;
