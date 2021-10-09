@@ -66,3 +66,10 @@ form.addEventListener('submit', e => {
         .catch(error => console.error('Error!', error.message))
 })
 
+// GSAP
+gsap.to(".heading-home", { duration: 3, delay: .5, text: "Tumpeng and Catering Services" });
+gsap.registerPlugin(TextPlugin);
+
+
+// AOS
+AOS.init();

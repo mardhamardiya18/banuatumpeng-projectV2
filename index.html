@@ -24,8 +24,14 @@
     <!-- Box Icon -->
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <title>Solusi Konsumsi Acara Sukses | Banuatumpeng</title>
 </head>
@@ -65,8 +71,8 @@
         <section class="container home" id="home">
             <div class="row p-5">
                 <div class="col-lg-6 col-md-12 d-flex text-center text-lg-start flex-column justify-content-center">
-                    <p class="label">Present by Banua Tumpeng</p>
-                    <h1 class="heading-home">Tumpeng and Catering Services</h1>
+                    <p class="label-home">Present by Banua Tumpeng</p>
+                    <h1 class="heading-home"></h1>
                     <p class="subheading-home mt-3 mx-sm-auto mx-lg-0">Dibuat oleh ahlinya untuk berbagai konsumsi
                         acara spesial
                         pian</p>
@@ -88,12 +94,12 @@
                         </div>
                         <div class="ket d-flex gap-2">
                             <p>(4,9)</p>
-                            <p>500++ Reviewer</p>
+                            <p class="reviewer-data">500++ Reviewer</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-img-home d-lg-flex justify-content-end d-none">
-                    <img src="assets/img/HeroImg.png" class=" img-fluid" alt="">
+                    <img src="assets/img/HeroImg.png" class=" img-fluid" alt="" data-aos="zoom-in">
                 </div>
             </div>
         </section>
@@ -104,13 +110,13 @@
     <section class="about" id="about">
         <div class="container py-5">
             <div class="row">
-                <div class="col-lg-6 content-left">
+                <div class="col-lg-6 content-left" data-aos="fade-up">
                     <div class="content-wrapper d-flex align-items-center">
                         <img src="assets/img/about.svg" class="m-auto m-lg-0 d-block" alt="">
                         <div class="orn"></div>
                     </div>
                 </div>
-                <div class="col-lg-6 content-right mt-5">
+                <div class="col-lg-6 content-right mt-5" data-aos="fade-up">
                     <div class="heading-wrapper">
                         <div class="heading p-3">
                             <p>TENTANG KAMI</p>
@@ -153,7 +159,7 @@
                 </div>
             </div>
             <div class="row mt-5">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in">
                     <div class="card rounded-3 p-5">
                         <div class="orn-hover"></div>
                         <div class="body-card">
@@ -167,7 +173,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mt-3 mt-sm-0">
+                <div class="col-lg-3 col-md-6 mt-3 mt-sm-0" data-aos="zoom-in" data-aos-delay="300">
                     <div class="card rounded-3 p-5">
                         <div class="orn-hover"></div>
                         <div class="body-card">
@@ -186,7 +192,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mt-3 mt-sm-0">
+                <div class="col-lg-3 col-md-6 mt-3 mt-sm-0" data-aos="zoom-in" data-aos-delay="800">
                     <div class="card rounded-3 p-5">
                         <div class="orn-hover"></div>
                         <div class="body-card">
@@ -199,7 +205,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mt-3 mt-md-0">
+                <div class="col-lg-3 col-md-6 mt-3 mt-md-0" data-aos="zoom-in" data-aos-delay="1000">
                     <div class="card rounded-3 p-5">
                         <div class="orn-hover"></div>
                         <div class="body-card">
@@ -254,7 +260,7 @@
             </div>
             <div class="row mt-5">
                 <div class="col-lg-3 col-md-6 d-flex justify-content-center">
-                    <div class="box-menu">
+                    <div class="box-menu" data-aos="zoom-in-down">
                         <img src="assets/img/tumpeng-menu.webp" alt="">
                         <p>Paket Tumpeng Besar</p>
                         <div class="btn-pesan">
@@ -265,7 +271,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 d-flex mt-3 mt-lg-0 justify-content-center">
-                    <div class="box-menu">
+                    <div class="box-menu" data-aos="zoom-in-down" data-aos-delay="300">
                         <img src="assets/img/tumini-menu.webp" alt="">
                         <p>Paket Tumpeng Mini</p>
                         <div class="btn-pesan">
@@ -276,7 +282,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 d-flex mt-md-3 mt-3 mt-lg-0 justify-content-center">
-                    <div class="box-menu">
+                    <div class="box-menu" data-aos="zoom-in-down" data-aos-delay="800">
                         <img src="assets/img/bento-menu.webp" alt="">
                         <p>Paket Box Bento</p>
                         <div class="btn-pesan">
@@ -287,7 +293,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 d-flex mt-md-3 mt-3 mt-lg-0 justify-content-center">
-                    <div class="box-menu">
+                    <div class="box-menu" data-aos="zoom-in-down" data-aos-delay="1300">
                         <img src="assets/img/naskot-menu.webp" alt="">
                         <p>Paket Nasi Kotak</p>
                         <div class="btn-pesan">
@@ -306,7 +312,7 @@
     <section class="testi" id="testi">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 d-flex flex-column justify-content-center">
+                <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="zoom-in">
                     <p class="label-testi">testimoni</p>
                     <h1 class="heading-testi">Apa Yang Mereka Katakan ?</h1>
                     <p class="desc-testi">Semua customer kami merasa puas
@@ -401,7 +407,7 @@
     <!-- BLOG START -->
     <section class="blog" id="blog">
         <div class="container">
-            <div class="row">
+            <div class="row" data-aos="zoom-in">
                 <div class="col-lg-6">
                     <p class="blog-label">BLOG & NEWS</p>
                     <h1 class="blog-heading">Temukan Informasi Menarik Disini </h1>
@@ -523,7 +529,7 @@
     <!-- SUBSCRIPTION START -->
     <section class="subscribe mb-5 pb-5">
         <div class="container">
-            <div class="row">
+            <div class="row" data-aos="zoom-in">
                 <div class="col-lg-8 col-subs m-auto py-5 p-lg-5 text-center">
                     <p class="subs-label">SUBSCRIPTION</p>
                     <h1 class="subs-heading">Dapatkan Informasi Ter-update
@@ -533,7 +539,7 @@
                         <input type="text" placeholder="Masukan email anda" name="email" class="ms-4">
                         <button type="submit"
                             class="btn-lg btn mx-auto mt-4 m-lg-0 py-2 px-3 rounded-pill btn-subs ">Subscribe</button>
-                        <div class="spinner-border d-none btn__subscribe-done text-warning"
+                        <div class="spinner-border mx-auto d-none btn__subscribe-done text-warning"
                             style="width: 3rem; height: 3rem;" role="status">
                             <span class="visually-hidden">Loading...</span>
                         </div>
@@ -556,7 +562,7 @@
                         <img src="assets/img/logo.ico" width="90" class="rounded-circle" alt="">
                         <h3 class="ms-3">BANUA<br>TUMPENG</h3>
                     </div>
-                    <p>admin@banuatumpeng.com</p>
+                    <a href="mailto:admin@banuatumpeng.com" class="email">admin@banuatumpeng.com</a>
                     <p>0851-5625-3408</p>
                     <div class="sosmed-icon mt-5">
                         <a
@@ -647,6 +653,10 @@
             </div>
         </div>
     </div>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/TextPlugin.min.js"></script>
 
 
 

@@ -91,7 +91,7 @@ body{
     background-color: var(--maroon-color);
     color: #fff;
 }
-.home .label{
+.home .label-home{
     font-family: var(--heading-font);
     font-size: 18px;
     font-weight: 700;
@@ -609,6 +609,12 @@ body{
 .footer .col-copy p{
     font-size: 18px;
 }
+.footer .email{
+    color: #212529;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
 /* footer end */
 
 
@@ -676,5 +682,8 @@ body{
     }
     .col-subs .input input{
         width: 100%;
+    }
+    .navbar-brand img{
+        width: 70px;
     }
 }
