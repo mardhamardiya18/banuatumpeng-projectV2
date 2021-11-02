@@ -73,3 +73,12 @@ gsap.registerPlugin(TextPlugin);
 
 // AOS
 AOS.init();
+
+// Banner Modal
+
+$(document).ready(function () {
+    setTimeout(function () {
+        $("#bannerModal").modal('show');
+    }, 3500)
+
+});
